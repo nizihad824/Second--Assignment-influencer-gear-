@@ -7,6 +7,7 @@ body{
     font-family: 'Poppins', sans-serif;
     border: 10px solid olive;
     width: 1440px;
+    
 
     height: 100%;
 
@@ -18,12 +19,17 @@ body{
     border: 8px solid seagreen;
     margin-bottom:30px ;
     margin-left: 120px;
+    
 }
-.bttn{
+.bttn, .bttn2{
+    width: 155px;
+    height: 44px;
+    padding: 10px;
     background-color: 
     #E02C6D;
     border-radius: 41px;
     color: white;
+    box-shadow: 5px 1px 26px -7px #000000;
 }
 .first-part-img{
     width: 440px;
@@ -36,7 +42,7 @@ body{
 
     width: 1110px;
     height: 110px;
-    border: 4px solid sandybrown;
+  
     display: grid;
     grid-template-columns: repeat(7,1fr);
     grid-column-gap:61px ;
@@ -44,6 +50,7 @@ body{
     align-items: center;
     margin-bottom: 90px;
     margin-left: 165px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 30px;
 }
 .second-part img{
     width: 55px;
@@ -60,6 +67,7 @@ body{
     height: 1662px;
    
     margin-left: 209px;
+    border: 5px solid red;
 
    
 }
@@ -103,7 +111,30 @@ body{
     ;
     
     
- } 
+ }  
+                        /* Fourth Part Start */
+
+     .fourth-part{
+         display: flex;
+         border: 5px solid greenyellow;
+         width: 1110px;
+         height: 270px;
+         margin: auto;
+         margin-top: 98px;
+
+     }                   
+     .display-image img{
+         width: 404px;
+         height: 270px;
+     }  
+     .about-img{
+         width: 610px;
+         height: 224px;
+         margin-left: 40px;
+     }
+     .bttn2{
+         font-size: 16px;
+     }
  
              /* .............................Footer ............................*/
  footer{
