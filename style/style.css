@@ -7,11 +7,7 @@ body{
     font-family: 'Poppins', sans-serif;
    
     width: 1440px;
-    
-
-    height: 100%;
-
-}
+    }
                      /* Header Part */
 
 .header-part{
@@ -111,6 +107,7 @@ nav{
 .items{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    justify-items: center;
     
     
    
@@ -226,7 +223,73 @@ nav{
     width: 32px;
     height: 32px;
 
-    padding:5px ;
+padding:5px ;
     border-radius: 0px;
 
   }   
+
+
+  /* Meadia Queries */
+
+  /* Mobile Devices */
+  @media only screen and (max-width:688px){
+      .container-one{
+          width: 100%;
+      }
+
+    .first-part{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        }
+        .first-part-title{
+            width: 100%;
+            display: grid;
+            text-align: center;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+    .second-part{
+       max-width: 100%;
+        margin: auto;
+        
+       
+        grid-template-columns: repeat(4,1fr);
+        justify-items: center;
+        
+       
+    }
+    .items{
+        flex-direction: column;
+        justify-items: center;
+        grid-template-columns: repeat(1,1fr);
+       
+       
+        bottom: 0;
+       
+    }
+    .item{
+        width: 330px;
+        max-height: max-content;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+   
+    #see-more{
+        text-align: center;
+    }
+    .fourth-part{
+        display: none;
+       }
+    footer{
+           position: fixed;
+           bottom: 0px;
+    }
+
+         
+
+     
+
+}
