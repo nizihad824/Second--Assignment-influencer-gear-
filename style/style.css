@@ -12,7 +12,30 @@ body{
     height: 100%;
 
 }
+                     /* Header Part */
 
+.header-part{
+    width: 1440px;
+    height: 100px;
+    border: 5px solid tomato;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-title{
+    margin-left: 120px;
+}
+.nav-bar a , .fa-search{
+    text-decoration: none;
+    margin-right: 30px;
+   
+}
+nav{
+    margin-right: 120px;
+    
+    
+   
+}
 /* ...................................First Part................. */
 .first-part{
     display: flex;
@@ -24,7 +47,7 @@ body{
 .bttn, .bttn2{
     width: 155px;
     height: 44px;
-    padding: 10px;
+    padding: 15px;
     background-color: 
     #E02C6D;
     border-radius: 41px;
@@ -121,6 +144,7 @@ body{
          height: 270px;
          margin: auto;
          margin-top: 98px;
+         margin-bottom: 100px;
 
      }                   
      .display-image img{
