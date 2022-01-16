@@ -5,7 +5,7 @@
       /*.................................. Body........................... */
 body{
     font-family: 'Poppins', sans-serif;
-    border: 10px solid olive;
+   
     width: 1440px;
     
 
@@ -17,7 +17,7 @@ body{
 .header-part{
     width: 1440px;
     height: 100px;
-    border: 5px solid tomato;
+   
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,14 +39,17 @@ nav{
 /* ...................................First Part................. */
 .first-part{
     display: flex;
-    border: 8px solid seagreen;
+   
     margin-bottom:30px ;
     margin-left: 120px;
     
 }
+.first-part-title{
+    width: 582px;
+    height: 270px;
+}
 .bttn, .bttn2{
-    width: 155px;
-    height: 44px;
+   
     padding: 15px;
     background-color: 
     #E02C6D;
@@ -58,6 +61,7 @@ nav{
     width: 440px;
     height: 414px;
     background-image: url(Circle\ design.svg);
+    margin-left: 40px;
 
 
 }
@@ -96,7 +100,7 @@ nav{
     height: 1662px;
    
     margin-left: 209px;
-    border: 5px solid red;
+   
 
    
 }
@@ -145,7 +149,7 @@ nav{
 
      .fourth-part{
          display: flex;
-         border: 5px solid greenyellow;
+        
          width: 1110px;
          height: 270px;
          margin: auto;
